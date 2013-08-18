@@ -1,0 +1,20 @@
+<div id="albumWrapper">
+    <div id="header">
+        <h2>{{currentImage.description}}</h2>
+
+        <select ng-model="categories" ng-options="category for category in imageCategories">
+            <option value="">all</option>
+        </select>
+    </div>
+
+    <div id="albumImage">
+        <img ng-src="{{currentImage.image}}" alt="{{currentImage.description}}">
+    </div>
+    <div id="thumbWrapper">
+        <ul id="thumbList">
+            <li ng-repeat="image in images | filter:categories" ng-click="setCurrentImage(image)">
+                <img ng-src="{{image.thumbnail}}" alt="{{image.description}}">
+            </li>
+        </ul>
+    </div>
+</div>
