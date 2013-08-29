@@ -1,11 +1,16 @@
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div id="header">
-            <h2>{{currentImage.description}}</h2>
-
-            <select ng-model="categories" ng-options="category for category in imageCategories">
-                <option value="">all</option>
-            </select>
+            <div class="row">
+                <div class="col-xs-7 col-sm-9 col-md-9 col-lg-9">
+                    <h2>{{currentImage.category}}</h2>
+                </div>
+                <div class="col-xs-5 col-sm-3 col-md-3 col-lg-3 select-style-1">
+                    <select ng-model="categories" ng-options="category for category in imageCategories">
+                        <option value="">Gallery Options</option>
+                    </select>
+                </div>
+            </div> 
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"> 

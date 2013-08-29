@@ -3,7 +3,15 @@
     width: 100%;
     max-height: 10%;
 }
-
+.select-style-1 {
+        padding: 10px;
+    }
+.select-style-1 select {
+        font-size: 1.25em;
+        line-height: 1.0em;
+        border-radius: 5px;
+        height: 35px;
+    }
 #header h2 {
     display: inline;
     height: 100%;
@@ -44,10 +52,12 @@
 
 @media screen and (max-width: 767px) {
 
-    #header select {
-
+    .select-style-1 {
+        padding: 10px;
     }
-
+    .select-style-1 select {
+        width: 100%;
+    }
     #albumImage {
         background-color: rgba(255,255,255,0.9);
         width: 100%;
@@ -84,12 +94,12 @@
     }
 }
 
-    /* Small devices (tablets, 768px and up) */
+/* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    #header select {
 
+    .select-style-1 select {
+        width: 100%;
     }
-
     #albumImage {
         background-color: rgba(255,255,255,0.9);
         width: 100%;
@@ -127,10 +137,11 @@
 
 }
 
-    /* Medium devices (desktops, 992px and up) */
+/* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
-    #header select {
+    .select-style-1 select {
+        width: ;
     }
 
     #header {
@@ -175,8 +186,11 @@
 
 }
 
-    /* Large devices (large desktops, 1200px and up) */
+/* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+    .select-style-1 select {
+        width: 70%;
+    }
     #header {
         position: relative;
         width: 100%;
