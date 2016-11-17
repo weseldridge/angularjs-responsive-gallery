@@ -1,6 +1,6 @@
 # Angular Responsive Image Gallery
 
-This project is a simple gallery application utilizing the [AnugluarJs](http://angularjs.org/) framework. A bulk of the code was addpated from simpulton's [angular-album](https://github.com/simpulton/angular-album).
+This project is a simple gallery application utilizing the [AngularJs](http://angularjs.org/) framework. A bulk of the code was addpated from simpulton's [angular-album](https://github.com/simpulton/angular-album).
 
 As a skeleton for this application we are using [angular-seed](https://github.com/angular/angular-seed). 
 
