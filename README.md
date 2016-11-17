@@ -17,7 +17,7 @@ Angular-seed provides a great environment outside that of a yoman/grunt workflow
 A few requirements for working with angular-seed:
 
 * [node.js](http://nodejs.org/) for working in the developer enviroment and running test.
-* [Jasmine](http://pivotal.github.io/jasmine/) and [Karam](http://karma-runner.github.io/0.10/index.html) for running test
+* [Jasmine](https://jasmine.github.io/) and [Karam](http://karma-runner.github.io/0.10/index.html) for running test
 
 ### Running the app during development
 
